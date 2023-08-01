@@ -1,0 +1,29 @@
+
+li {
+list-style: none;
+}
+a:link, a:visited{
+  text-decoration: none;
+  list-style: none;
+  background-color: black;
+  border: 2px solid green;
+  color: lightblue;
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+a:hover, a:active{
+  background-color: lightblue;
+  color: black;
+}
+
+section div:nth-child(odd){
+  background-color: yellow;
+}
+
+body{
+  font-family: sans-serif;
+  font-size: 120%;
+}
